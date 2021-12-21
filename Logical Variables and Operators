@@ -1,0 +1,27 @@
+#Logical : 
+#TRUE T
+#False F
+
+4 < 5
+# == equal to
+# != not equal to
+# <
+# >
+# <=
+# >=
+# ! not
+# | or ������ ���� ���
+# & and
+# isTRUE(x)
+
+result <- 4<5
+result
+typeof(result)
+
+result2 <- !(5>1)
+result2
+
+result | result2 # result 1 or result 2 : one of these is true
+result & result2
+
+isTRUE(result)
